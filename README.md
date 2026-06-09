@@ -1,2 +1,2 @@
-# Alex Wilson - Data Science Project Portfolio
+# Data Scientist
 ## Data Science Portfolio
