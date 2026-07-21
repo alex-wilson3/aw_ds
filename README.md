@@ -7,6 +7,6 @@ Years on, I'm working as a data scientist in the financial industry, turning com
 Some of the non-work-related stories can be found below...
 
 ## Welcome to my data playground
-<img align="left" src="https://github.com/alex-wilson3/aw_ds/blob/main/assets/wc.jpg" alt="Spain WC image" style="width:20%; height:auto;"/> Who will win the FIFA World Cup 2026?
+<img align="left" src="https://github.com/alex-wilson3/aw_ds/blob/main/assets/wc.jpg" alt="Spain WC image" style="width:20%; height:auto;"/> ### Who will win the FIFA World Cup 2026?
 
 Predictions using ranking methods
