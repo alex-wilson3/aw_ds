@@ -7,5 +7,5 @@ Years on, I'm working as a data scientist in the financial industry, turning com
 Some of the non-work-related stories can be found below...
 
 ## Welcome to my data playground
-<img src="https://github.com/alex-wilson3/aw_ds/blob/main/assets/wc.jpg" alt="Spain WC image" style="width:50; height:auto;">
+<img src="https://github.com/alex-wilson3/aw_ds/blob/main/assets/wc.jpg" alt="Spain WC image" style="width:20; height:auto;">
 World Cup Predictor
