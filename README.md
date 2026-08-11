@@ -10,6 +10,7 @@ Some of the non-work-related stories can be found below...
 
 ## Welcome to my data playground
 [<img align="left" src="https://github.com/alex-wilson3/aw_ds/blob/main/assets/wc.jpg" alt="Spain WC image" style="width:20%; height:auto;"/>](https://github.com/alex-wilson3/aw_ds/tree/main/world_cup_predictor)
+![SpainWCImageTest]([https://myoctocat.com/assets/images/base-octocat.svg](https://github.com/alex-wilson3/aw_ds/tree/main/world_cup_predictor))
 
 ### [Who will win the FIFA World Cup 2026?](https://github.com/alex-wilson3/aw_ds/tree/main/world_cup_predictor)
 
