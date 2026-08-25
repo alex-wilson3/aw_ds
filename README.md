@@ -4,7 +4,7 @@ My fascination with data, insights and improving processes was sparked back in 2
 
 I saw the power that data held to enhance day-to-day operations for the team, connect with customers and create robust sales strategies, ultimately increasing revenue.
 
-Several years later, I'm working as a data scientist in the financial industry, turning complex machine learning models into simple stories of success.
+Several years later, I'm working as a data scientist in the financial industry, turning complex machine learning models into simple success stories.
 
 Some of the non-work-related stories can be found below...
 
