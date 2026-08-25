@@ -63,3 +63,10 @@ rho, p_value = spearmanr(wc_2026_validation['actual_rank'], wc_2026_validation['
 
 print(f"Spearman's Rho: {rho:.4f}")
 ```
+
+## Future improvements
+- LightGBM was tested during this project and performance was poor although there’s scope to test other ranking methodology, e.g. using other tree-based algorithms and their ranking methods such as XGBoost or using PairWise learning to rank methods such as RankNet to see how performance differs
+- Test an ensemble method with ranking being used as a feature within a larger machine learning model approach
+- Additional features could help with overall prediction as well as to combat the effect of randomness such as taking into account the referee leniency, fan attendance/support, weather forecasts, time of fixture, time since previous game/recovery time
+- Whilst the Spearman’s rho result suggests strong predictive power, it can also be a sign of overfitting. Training/testing on more tournaments would ensure model robustness and minimise overfitting
+
