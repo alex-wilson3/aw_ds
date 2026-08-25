@@ -46,8 +46,8 @@ model = CatBoostRanker(
 ```
 
 ## Post World Cup Validation
-This included detailing each team's actual placing (those that went out at quarter finals were placed randomly 5-8, round of 16 randomly 9-16, etc.)
-Spearman's Rho was applied to test the model's predictive power
+This included detailing each team's actual placing (those that went out at quarter finals were placed randomly 5-8, round of 16 randomly 9-16, etc.) and comparing with the model's predictions.
+Spearman's Rho was applied to test this predictive power.
 ```
 from scipy.stats import spearmanr
 rho, p_value = spearmanr(wc_2026_validation['actual_rank'], wc_2026_validation['predicted_rank'])
