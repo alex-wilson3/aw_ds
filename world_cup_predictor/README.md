@@ -42,7 +42,6 @@ model = CatBoostRanker(
     learning_rate=0.54,
     loss_function='YetiRank',
     eval_metric='FilteredDCG',
-    # early_stopping_rounds=100,
     random_seed=42
 ```
 
