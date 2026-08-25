@@ -22,7 +22,7 @@ e.g.
 pd.merge(international_games_team_summary_2026, elo_team_ratings_2026, left_on='team', right_on='country', how='left')
 ```
 ## Defining tournament groups
-The groups for each tournament were defined within dictionaries so each team could be mapped to its group. This also aided the creation of 'group_mean_rating' feature
+The groups for each tournament were defined within dictionaries so each team could be mapped to its group. This also aided the creation of 'group_mean_rating' feature.
 
 ## Ranking methodology - CatBoostRanker
 Training dataset was World Cup 2022, validation test set was Euros 2024 and then the model was applied to 2026 World Cup
