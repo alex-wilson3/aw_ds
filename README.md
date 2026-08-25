@@ -6,7 +6,7 @@ I saw the power that data held to enhance day-to-day operations for the team, co
 
 Several years later, I'm working as a data scientist in the financial industry, turning complex machine learning models into simple success stories.
 
-Some of the non-work-related stories can be found below...
+Outside of work, here's what I've been looking at...
 
 ## Welcome to my data playground
 [<img align="left" src="assets/wc.jpg" alt="Spain WC image" style="width:30%; height:auto; margin-right: 20px; margin-bottom: 10px;"/>](https://github.com/alex-wilson3/aw_ds/tree/main/world_cup_predictor)
