@@ -69,4 +69,5 @@ print(f"Spearman's Rho: {rho:.4f}")
 - Test an ensemble method with ranking being used as a feature within a larger machine learning model approach
 - Additional features could help with overall prediction as well as to combat the effect of randomness such as taking into account the referee leniency, fan attendance/support, weather forecasts, time of fixture, time since previous game/recovery time
 - Whilst the Spearman’s rho result suggests strong predictive power, it can also be a sign of overfitting. Training/testing on more tournaments would ensure model robustness and minimise overfitting
+- Functions or loops to reduce repetitive code that's applied to different years' data
 
