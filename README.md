@@ -13,4 +13,4 @@ Some of the non-work-related stories can be found below...
 
 ### [Who will win the FIFA World Cup 2026?](https://github.com/alex-wilson3/aw_ds/tree/main/world_cup_predictor)
 
-Predictions using ranking methods
+Explore predictions for the FIFA World Cup 2026 using CatBoostRanker
