@@ -10,13 +10,13 @@ Below is a brief overview of the process.
 ## Data pre-processing and feature engineering
 
 ### Load in ELO data
-```
+```python
 elo_team_ratings = pd.read_csv('elo_wc2026.csv')
 ```
 The dataset required minor cleaning and 'win_rate', 'draw_rate' and 'loss_rate' were created.
 
 ### Load in international fixtures
-```
+```python
 internationals = pd.read_csv('international_results.csv')
 ```
 The dataset required cleaning, e.g. creating one column for team by having two rows per fixture and creating the 'result' column.
@@ -24,7 +24,7 @@ New features were created such as 'total_win_rate', 'goals_scored_per_game_avg' 
 
 ### Merge both datasets into one
 e.g.
-```
+```python
 pd.merge(international_games_team_summary_2026, elo_team_ratings_2026, left_on='team', right_on='country', how='left')
 ```
 ### Defining tournament groups
@@ -32,7 +32,7 @@ The groups for each tournament were defined within dictionaries so each team cou
 
 ## Ranking methodology - CatBoostRanker
 Training dataset was World Cup 2022, validation test set was Euros 2024 and then the model was applied to 2026 World Cup.
-```
+```python
 from catboost import CatBoostRanker, Pool
 
 X = data_final_2022.drop(columns = ['goals_scored','goals_conceded','target']).select_dtypes(include=np.number)
@@ -57,7 +57,7 @@ Spain were correctly predicted as winners by the model with England being just o
 The Spearman’s rho is 0.72 for this model which suggests strong predictive power.
 
 Spearman's Rho was applied by comparing the model's predictions to each team's actual placing.
-```
+```python
 from scipy.stats import spearmanr
 rho, p_value = spearmanr(wc_2026_validation['actual_rank'], wc_2026_validation['predicted_rank'])
 
